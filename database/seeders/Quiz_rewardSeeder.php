@@ -21,7 +21,7 @@ class Quiz_rewardSeeder extends Seeder
                 'quantity' => 20,
                 'image' => 'general_knowledge.jpg',
                 'status' => 'active',
-                'created_by' => 'Admin',
+                'created_by' => 1,
                 'redeem_date' => '2024-04-01',
             ],
             [
@@ -31,7 +31,7 @@ class Quiz_rewardSeeder extends Seeder
                 'quantity' => 15,
                 'image' => 'science_challenge.jpg',
                 'status' => 'active',
-                'created_by' => 'Editor',
+                'created_by' => 1,
                 'redeem_date' => '2024-04-10',
             ],
             [
@@ -41,7 +41,7 @@ class Quiz_rewardSeeder extends Seeder
                 'quantity' => 25,
                 'image' => 'movie_buff_quiz.jpg',
                 'status' => 'inactive',
-                'created_by' => 'Moderator',
+                'created_by' => 1,
                 'redeem_date' => '2024-04-15',
             ],
             [
@@ -51,7 +51,7 @@ class Quiz_rewardSeeder extends Seeder
                 'quantity' => 18,
                 'image' => 'tech_enthusiast_quiz.jpg',
                 'status' => 'active',
-                'created_by' => 'Developer',
+                'created_by' => 1,
                 'redeem_date' => '2024-04-20',
             ],
             [
@@ -61,10 +61,9 @@ class Quiz_rewardSeeder extends Seeder
                 'quantity' => 22,
                 'image' => 'history_trivia.jpg',
                 'status' => 'active',
-                'created_by' => 'Historian',
+                'created_by' => 1,
                 'redeem_date' => '2024-04-25',
             ],
         ]);
-
     }
 }
